@@ -45,8 +45,8 @@ string shiftLetters(const string& input, int shiftAmount) {
     string result = input;
 
     for (char& c : result) {
-        if (std::isalpha(c)) {
-            c = std::tolower(c);
+        if (isalpha(c)) {
+            c = tolower(c);
             c += shiftAmount;
             c = 'a' + (c - 'a') % 26;
         }
