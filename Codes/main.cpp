@@ -2,7 +2,13 @@
 #include <fstream>
 #include <string>
 
-using namespace std;
+using std::string;
+using std::cin;
+using std::cout;
+using std::cerr;
+using std::endl;
+using std::ifstream;
+using std::ofstream;
 
 void decryptFile(const string& filename);
 void encryptFile(const string& filename);
