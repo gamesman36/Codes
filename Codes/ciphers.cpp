@@ -3,12 +3,7 @@
 #include <fstream>
 #include <cctype>
 
-using std::cout;
-using std::cin;
-using std::ifstream;
-using std::cerr;
-using std::endl;
-using std::ofstream;
+using std::cout, std::cin, std::ifstream, std::cerr, std::endl, std::ofstream;
 
 void decryptFile(const string& filename) {
     int choice = printMenu("decrypt");
